@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Environments
+.env
+.venv/
+venv/
+ENV/
+env/
+*.env
+
+# Django stuff
+db.sqlite3
+media/
+staticfiles/
+*.log
+
+# VSCode or PyCharm
+.vscode/
+.idea/
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Migrations (اختیاری)
+**/migrations/*.pyc
+**/migrations/__pycache__/
+# فقط migrationهای خالی:
+# **/migrations/0*.py
+
+# Coverage and testing
+htmlcov/
+coverage.xml
+*.cover
+.cache
+.noseids
+
+# Git
+*.orig
