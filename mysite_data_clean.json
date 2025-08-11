@@ -1,0 +1,241 @@
+[
+  {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$1000000$dz91E9HI3znBTTRr42WgWe$HIJ007Ol4CNPrKnDp9T9aSZbWQ8DL0FXqSWSGGCOncs=",
+      "last_login": "2025-08-04T08:50:13.828Z",
+      "is_superuser": true,
+      "username": "amir",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2025-08-04T08:49:53.441Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 2,
+    "fields": {
+      "password": "!IO1abGNeXAD2aq9CCwn9njbbOC1zJgrvOYABQGHn",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "hossein",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2025-08-04T09:15:52.787Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "sites.site",
+    "pk": 1,
+    "fields": {
+      "domain": "localhost:8000",
+      "name": "localhost:8000"
+    }
+  },
+  {
+    "model": "taggit.tag",
+    "pk": 1,
+    "fields": {
+      "name": "lang",
+      "slug": "lang"
+    }
+  },
+  {
+    "model": "taggit.tag",
+    "pk": 2,
+    "fields": {
+      "name": "django",
+      "slug": "django"
+    }
+  },
+  {
+    "model": "taggit.tag",
+    "pk": 3,
+    "fields": {
+      "name": "python",
+      "slug": "python"
+    }
+  },
+  {
+    "model": "taggit.tag",
+    "pk": 4,
+    "fields": {
+      "name": "Learn",
+      "slug": "learn"
+    }
+  },
+  {
+    "model": "taggit.tag",
+    "pk": 5,
+    "fields": {
+      "name": "markdown",
+      "slug": "markdown"
+    }
+  },
+  {
+    "model": "taggit.taggeditem",
+    "pk": 1,
+    "fields": {
+      "tag": 1,
+      "content_type": 7,
+      "object_id": 3
+    }
+  },
+  {
+    "model": "taggit.taggeditem",
+    "pk": 3,
+    "fields": {
+      "tag": 3,
+      "content_type": 7,
+      "object_id": 1
+    }
+  },
+  {
+    "model": "taggit.taggeditem",
+    "pk": 4,
+    "fields": {
+      "tag": 2,
+      "content_type": 7,
+      "object_id": 1
+    }
+  },
+  {
+    "model": "taggit.taggeditem",
+    "pk": 5,
+    "fields": {
+      "tag": 4,
+      "content_type": 7,
+      "object_id": 1
+    }
+  },
+  {
+    "model": "taggit.taggeditem",
+    "pk": 6,
+    "fields": {
+      "tag": 4,
+      "content_type": 7,
+      "object_id": 2
+    }
+  },
+  {
+    "model": "taggit.taggeditem",
+    "pk": 7,
+    "fields": {
+      "tag": 4,
+      "content_type": 7,
+      "object_id": 3
+    }
+  },
+  {
+    "model": "taggit.taggeditem",
+    "pk": 9,
+    "fields": {
+      "tag": 2,
+      "content_type": 7,
+      "object_id": 2
+    }
+  },
+  {
+    "model": "taggit.taggeditem",
+    "pk": 11,
+    "fields": {
+      "tag": 3,
+      "content_type": 7,
+      "object_id": 2
+    }
+  },
+  {
+    "model": "taggit.taggeditem",
+    "pk": 12,
+    "fields": {
+      "tag": 3,
+      "content_type": 7,
+      "object_id": 3
+    }
+  },
+  {
+    "model": "taggit.taggeditem",
+    "pk": 14,
+    "fields": {
+      "tag": 1,
+      "content_type": 7,
+      "object_id": 2
+    }
+  },
+  {
+    "model": "taggit.taggeditem",
+    "pk": 15,
+    "fields": {
+      "tag": 5,
+      "content_type": 7,
+      "object_id": 4
+    }
+  },
+  {
+    "model": "blog.post",
+    "pk": 1,
+    "fields": {
+      "title": "python is best lang",
+      "slug": "python-is-best-lang",
+      "author": 1,
+      "body": "this is python body",
+      "publish": "2025-08-04T08:54:19Z",
+      "created": "2025-08-04T08:54:44.994Z",
+      "updated": "2025-08-04T09:26:06.070Z",
+      "status": "DF"
+    }
+  },
+  {
+    "model": "blog.post",
+    "pk": 2,
+    "fields": {
+      "title": "js is my firsr lang",
+      "slug": "js-is-my-firsr-lang",
+      "author": 2,
+      "body": "this is for js lang bodi",
+      "publish": "2025-08-04T09:30:34Z",
+      "created": "2025-08-04T09:31:14.863Z",
+      "updated": "2025-08-04T09:31:14.863Z",
+      "status": "PB"
+    }
+  },
+  {
+    "model": "blog.post",
+    "pk": 3,
+    "fields": {
+      "title": "this is for test pagination",
+      "slug": "this-is-for-test-pagination",
+      "author": 1,
+      "body": "this is for test",
+      "publish": "2025-08-05T10:01:10Z",
+      "created": "2025-08-05T10:01:50.183Z",
+      "updated": "2025-08-05T10:01:50.183Z",
+      "status": "PB"
+    }
+  },
+  {
+    "model": "blog.post",
+    "pk": 4,
+    "fields": {
+      "title": "Markdown post",
+      "slug": "markdown-post",
+      "author": 1,
+      "body": "This is a post formatted with markdown\r\n--------------------------------------\r\n*This is emphasized* and **this is more emphasized**.\r\nHere is a list:\r\n* One\r\n* Two\r\n* Three\r\nAnd a [link to the Django website](https://www.djangoproject.com/).",
+      "publish": "2025-08-10T06:18:37Z",
+      "created": "2025-08-10T06:19:37.159Z",
+      "updated": "2025-08-10T06:22:28.918Z",
+      "status": "PB"
+    }
+  }
+]
